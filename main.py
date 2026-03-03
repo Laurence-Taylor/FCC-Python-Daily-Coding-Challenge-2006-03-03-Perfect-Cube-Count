@@ -9,7 +9,7 @@ def count_perfect_cubes(a, b):
     count = 0
     # In this case the logic is iterate over natural integer and find if the number cubed is in the range a-b. 
     # This is to save time and iterations, I suppose a big posibble range, but never will be reached
-    for i in range(int(abs_max/3)):
+    for i in range(int(abs_max)):
         # Calculate posibble cubed number
         possible_number = i**3
         # Check possible_number = 0 because is an especial case and could be counted twice following my logic
